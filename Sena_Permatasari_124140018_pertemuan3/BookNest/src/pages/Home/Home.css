@@ -1,0 +1,23 @@
+﻿/* BookNest - Halaman dashboard */
+.hero {
+  isolation: isolate;
+}
+.hero-tag {
+  display: inline-block;
+  transform: rotate(-2deg);
+}
+.hero-button {
+  transition: transform 0.2s ease;
+}
+.hero-button:hover {
+  transform: translateY(-3px);
+}
+.stat-card {
+  transition: transform 0.2s ease;
+}
+.stat-card:hover {
+  transform: translateY(-3px);
+}
+.view-all:hover {
+  color: #d86696;
+}

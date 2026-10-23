@@ -1,0 +1,18 @@
+﻿/* BookNest - Pencarian dan filter status */
+.filter-section {
+  transition: box-shadow 0.2s ease;
+}
+.search-wrap:focus-within {
+  border-color: #ed75a3;
+  box-shadow: 0 0 0 3px #ffe0eb;
+}
+.filter-pill {
+  transition: transform 0.2s, background 0.2s;
+}
+.filter-pill:hover {
+  background: #ffd6e6;
+  transform: translateY(-2px);
+}
+.filter-pill.selected:hover {
+  background: #ffe47b;
+}

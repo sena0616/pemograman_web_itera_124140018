@@ -1,0 +1,17 @@
+﻿/* BookNest - Halaman statistik */
+.chart-card {
+  transition: box-shadow 0.2s ease;
+}
+.chart-card:hover {
+  box-shadow: 7px 8px 0 #383044;
+}
+.chart-fill {
+  border-radius: 30px;
+  transition: width 0.4s ease-in-out;
+}
+.chart-row:last-of-type {
+  margin-bottom: 12px;
+}
+.chart-footnote {
+  border-left: 4px solid #ff92bc;
+}
