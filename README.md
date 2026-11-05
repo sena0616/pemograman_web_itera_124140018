@@ -1,4 +1,3 @@
-
 # Tugas Pemrograman Web
 
 **Nama:** Sena Permatasari  
@@ -8,15 +7,16 @@
 
 ## Deskripsi Repository
 
-Repository ini berisi kumpulan hasil praktikum dan tugas mata kuliah Pemrograman Web. Materi yang dikerjakan mencakup JavaScript Dasar, JavaScript Next Gen (ES6+), serta pengembangan aplikasi berbasis React menggunakan Vite.
+Repository ini berisi kumpulan hasil praktikum dan tugas mata kuliah Pemrograman Web. Materi yang dikerjakan mencakup JavaScript Dasar, JavaScript Next Gen (ES6+), pengembangan aplikasi berbasis React menggunakan Vite, serta dasar-dasar pemrograman Python.
 
 ## Daftar Pertemuan
 
 | No | Materi | Folder |
 |---|---|---|
-| 01 | JavaScript Dasar | [Pertemuan 1](senapermatasari_124140018_pertemuan1) |
-| 02 | JavaScript Next Gen (ES6+) | [Pertemuan 2](senapermatasari_124140018_pertemuan2) |
-| 03 | React Basics | [Pertemuan 3](Sena_Permatasari_124140018_pertemuan3) |
+| 01 | JavaScript Dasar | [Pertemuan 1](senapermatasari_124140018_pertemuan1/) |
+| 02 | JavaScript Next Gen (ES6+) | [Pertemuan 2](senapermatasari_124140018_pertemuan2/) |
+| 03 | React Basics | [Pertemuan 3](Sena_Permatasari_124140018_pertemuan3/) |
+| 04 | Python Dasar | [Pertemuan 4](senapermatasari_124140018_pertemuan4/) |
 
 ---
 
@@ -40,7 +40,7 @@ Pertemuan pertama membahas konsep dasar JavaScript sebagai bahasa pemrograman un
 
 Pada pertemuan ini dilakukan latihan penggunaan sintaks dasar JavaScript untuk memahami cara mengolah data, menerapkan logika pemrograman, serta menambahkan interaksi pada halaman web.
 
-**[Lihat Hasil Pertemuan 1](senapermatasari_124140018_pertemuan1)**
+**[Lihat Hasil Pertemuan 1](senapermatasari_124140018_pertemuan1/)**
 
 ---
 
@@ -97,7 +97,7 @@ Menampilkan tampilan aplikasi pada ukuran layar mobile.
 
 ![Mobile](senapermatasari_124140018_pertemuan2/SS/05-mobile.png)
 
-**[Lihat Hasil Pertemuan 2](senapermatasari_124140018_pertemuan2)**
+**[Lihat Hasil Pertemuan 2](senapermatasari_124140018_pertemuan2/)**
 
 ---
 
@@ -123,7 +123,7 @@ My React App merupakan project yang dibuat untuk mengimplementasikan konsep-kons
 - Context API
 - Unit Testing
 
-**[Lihat My React App](Sena_Permatasari_124140018_pertemuan3/my-react-app)**
+**[Lihat My React App](Sena_Permatasari_124140018_pertemuan3/my-react-app/)**
 
 ### 2. BookNest — Tugas
 
@@ -176,7 +176,86 @@ Pengujian BookNest menggunakan Vitest dengan hasil 10 tests passed.
 
 ![Unit Testing](Sena_Permatasari_124140018_pertemuan3/BookNest/SS/unit-test.png)
 
-**[Lihat Project BookNest](Sena_Permatasari_124140018_pertemuan3/BookNest)**
+**[Lihat Project BookNest](Sena_Permatasari_124140018_pertemuan3/BookNest/)**
+
+---
+
+## Pertemuan 4 — Python Dasar
+
+### Deskripsi
+
+Pertemuan keempat membahas dasar-dasar pemrograman Python, mulai dari pengenalan sintaks, variabel, tipe data, struktur kendali, fungsi, hingga modularitas menggunakan modul dan package.
+
+### Materi yang Dipelajari
+
+- Pengenalan dan eksekusi Python
+- Variabel dan tipe data
+- Struktur kendali
+- Modularitas dan fungsi
+- Struktur data
+- Modul dan package Python
+
+### Hasil Praktikum
+
+Pada pertemuan ini dibuat beberapa program untuk menerapkan materi Python, yaitu program perhitungan BMI, pengolahan nilai mahasiswa, serta penggunaan modul operasi matematika.
+
+### Dokumentasi Pertemuan 4
+
+#### 1. Pengujian Program BMI dengan Kategori Normal
+
+Menampilkan hasil perhitungan BMI dengan kategori normal.
+
+![BMI Normal](senapermatasari_124140018_pertemuan4/Screenshot/01-tugas1-bmi-normal.png)
+
+#### 2. Pengujian Program BMI dengan Kategori Berat Berlebih
+
+Menampilkan hasil perhitungan BMI dengan kategori berat berlebih.
+
+![BMI Berat Berlebih](senapermatasari_124140018_pertemuan4/Screenshot/02-tugas1-bmi-berlebih.png)
+
+#### 3. Validasi Input Program BMI
+
+Menampilkan validasi terhadap input yang tidak sesuai.
+
+![Validasi BMI](senapermatasari_124140018_pertemuan4/Screenshot/03-tugas1-bmi-validasi-input.png)
+
+#### 4. Pengujian Program BMI dengan Kategori Berat Badan Kurang
+
+Menampilkan hasil perhitungan BMI dengan kategori berat badan kurang.
+
+![BMI Berat Kurang](senapermatasari_124140018_pertemuan4/Screenshot/04-tugas1-bmi-kurang.png)
+
+#### 5. Pengujian Program BMI dengan Kategori Obesitas
+
+Menampilkan hasil perhitungan BMI dengan kategori obesitas.
+
+![BMI Obesitas](senapermatasari_124140018_pertemuan4/Screenshot/05-tugas2-bmi-obesitas.png)
+
+#### 6. Hasil Pengolahan Data dan Tabel Nilai Mahasiswa
+
+Menampilkan hasil pengolahan data nilai mahasiswa dalam bentuk tabel.
+
+![Tabel Nilai Mahasiswa](senapermatasari_124140018_pertemuan4/Screenshot/06-tugas2-tabel-nilai-mahasiswa.png)
+
+#### 7. Implementasi Modul pada Program Utama
+
+Menampilkan penggunaan fungsi dari modul `math_operations.py` melalui `main.py`.
+
+![Program Utama](senapermatasari_124140018_pertemuan4/Screenshot/07-tugas3-main.png)
+
+#### 8. Pemeriksaan Kode Menggunakan Pycodestyle
+
+Menampilkan hasil pemeriksaan kode berdasarkan standar PEP 8.
+
+![Pycodestyle](senapermatasari_124140018_pertemuan4/Screenshot/08-cek-pep8-pycodestyle.png)
+
+#### 9. Pengujian Modul Secara Langsung
+
+Menampilkan pengujian fungsi pada modul `math_operations.py` secara langsung.
+
+![Pengujian Modul](senapermatasari_124140018_pertemuan4/Screenshot/09-tugas3-uji-modul-langsung.png)
+
+**[Lihat Hasil Pertemuan 4](senapermatasari_124140018_pertemuan4/)**
 
 ---
 
@@ -193,6 +272,7 @@ Pengujian BookNest menggunakan Vitest dengan hasil 10 tests passed.
 | Context API | Pengelolaan state global |
 | localStorage | Penyimpanan data pada browser |
 | Vitest | Pengujian aplikasi React |
+| Python | Bahasa pemrograman untuk praktikum dasar |
 
 ## Cara Menjalankan Project
 
@@ -258,13 +338,35 @@ Dari folder BookNest, jalankan:
 npm test
 ```
 
+### 6. Pertemuan 4 — Python Dasar
+
+Pastikan Python sudah terpasang. Masuk ke folder Pertemuan 4, kemudian jalankan program yang ingin diuji.
+
+Contoh menjalankan program BMI:
+
+```bash
+python tugas1_bmi.py
+```
+
+Menjalankan program pengolahan nilai mahasiswa:
+
+```bash
+python tugas2_nilai_mahasiswa.py
+```
+
+Menjalankan program utama:
+
+```bash
+python main.py
+```
+
 ---
 
 ## Kesimpulan
 
-Melalui rangkaian praktikum ini, dipelajari dasar pengembangan web menggunakan JavaScript hingga penerapan framework React untuk membangun aplikasi yang lebih interaktif dan terstruktur.
+Melalui rangkaian praktikum ini, dipelajari dasar pengembangan web menggunakan JavaScript hingga penerapan framework React untuk membangun aplikasi yang lebih interaktif dan terstruktur. Selain itu, dipelajari pula dasar pemrograman Python untuk memahami konsep pemrograman dan penerapannya dalam pembuatan program sederhana.
 
-Praktikum juga memberikan pengalaman dalam mengelola komponen, state, navigasi, penyimpanan data, serta pengujian aplikasi.
+Praktikum memberikan pengalaman dalam mengelola komponen, state, navigasi, penyimpanan data, modularitas program, serta pengujian aplikasi.
 
 ---
 
