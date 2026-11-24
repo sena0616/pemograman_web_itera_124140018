@@ -7,7 +7,7 @@
 
 ## Deskripsi Repository
 
-Repository ini berisi kumpulan hasil praktikum dan tugas mata kuliah Pemrograman Web. Materi yang dikerjakan mencakup JavaScript Dasar, JavaScript Next Gen (ES6+), pengembangan aplikasi berbasis React menggunakan Vite, dasar-dasar pemrograman Python, serta Pemrograman Berorientasi Objek (OOP) dengan Python.
+Repository ini berisi kumpulan hasil praktikum dan tugas mata kuliah Pemrograman Web. Materi yang dikerjakan mencakup JavaScript Dasar, JavaScript Next Gen (ES6+), pengembangan aplikasi berbasis React menggunakan Vite, dasar-dasar pemrograman Python, Pemrograman Berorientasi Objek (OOP) dengan Python, serta pengembangan aplikasi web menggunakan Pyramid Framework dan PostgreSQL.
 
 ## Daftar Pertemuan
 
@@ -18,6 +18,7 @@ Repository ini berisi kumpulan hasil praktikum dan tugas mata kuliah Pemrograman
 | 03 | React Basics | [Pertemuan 3](Sena_Permatasari_124140018_pertemuan3/) |
 | 04 | Python Dasar | [Pertemuan 4](senapermatasari_124140018_pertemuan4/) |
 | 05 | Python OOP | [Pertemuan 5](senapermatasari_124140018_pertemuan5/) |
+| 06 | Pyramid dan PostgreSQL | [Pertemuan 6](senapermatasari_124140018_pertemuan6/) |
 
 ---
 
@@ -352,6 +353,119 @@ Menampilkan penerapan enkapsulasi pada data program.
 
 ---
 
+## Pertemuan 6 — Pyramid dan PostgreSQL
+
+### Deskripsi
+
+Pertemuan keenam membahas pengembangan aplikasi web menggunakan Pyramid Framework dengan PostgreSQL sebagai sistem manajemen basis data. Praktikum ini menerapkan SQLAlchemy sebagai ORM dan Alembic untuk mengelola migrasi database.
+
+### Materi yang Dipelajari
+
+- Pengenalan Pyramid Framework
+- Konfigurasi koneksi PostgreSQL
+- Penggunaan SQLAlchemy ORM
+- Pembuatan Model dan Database Migration
+- Implementasi REST API
+- Operasi CRUD (Create, Read, Update, Delete)
+
+### Hasil Praktikum
+
+Pada pertemuan ini dibuat aplikasi pengelolaan data mahasiswa dan mata kuliah menggunakan Pyramid dan PostgreSQL.
+
+**Fitur CRUD Mahasiswa:**
+
+- Menampilkan seluruh data mahasiswa
+- Melihat detail mahasiswa berdasarkan ID
+- Menambahkan data mahasiswa
+- Memperbarui data mahasiswa
+- Menghapus data mahasiswa
+
+**Fitur CRUD Matakuliah:**
+
+- Menampilkan seluruh data mata kuliah
+- Melihat detail mata kuliah berdasarkan ID
+- Menambahkan data mata kuliah
+- Memperbarui data mata kuliah
+- Menghapus data mata kuliah
+
+### Endpoint API
+
+**Mahasiswa**
+
+| Method | Endpoint | Keterangan |
+|---|---|---|
+| GET | `/api/mahasiswa` | Menampilkan seluruh data mahasiswa |
+| GET | `/api/mahasiswa/{id}` | Menampilkan detail mahasiswa |
+| POST | `/api/mahasiswa` | Menambahkan mahasiswa |
+| PUT | `/api/mahasiswa/{id}` | Memperbarui data mahasiswa |
+| DELETE | `/api/mahasiswa/{id}` | Menghapus mahasiswa |
+
+**Matakuliah**
+
+| Method | Endpoint | Keterangan |
+|---|---|---|
+| GET | `/api/matakuliah` | Menampilkan seluruh data mata kuliah |
+| GET | `/api/matakuliah/{id}` | Menampilkan detail mata kuliah |
+| POST | `/api/matakuliah` | Menambahkan mata kuliah |
+| PUT | `/api/matakuliah/{id}` | Memperbarui data mata kuliah |
+| DELETE | `/api/matakuliah/{id}` | Menghapus mata kuliah |
+
+### Dokumentasi Pertemuan 6
+
+#### 1. Struktur Project
+
+Menampilkan struktur folder dan file project Pyramid.
+
+![Struktur Project](senapermatasari_124140018_pertemuan6/screenshot/01-struktur-project.png)
+
+#### 2. Model Mahasiswa
+
+Menampilkan implementasi model Mahasiswa menggunakan SQLAlchemy.
+
+![Model Mahasiswa](senapermatasari_124140018_pertemuan6/screenshot/02-model-mahasiswa.png)
+
+#### 3. Model Matakuliah
+
+Menampilkan implementasi model Matakuliah menggunakan SQLAlchemy.
+
+![Model Matakuliah](senapermatasari_124140018_pertemuan6/screenshot/03-model-matakuliah.png)
+
+#### 4. Migration Mahasiswa
+
+Menampilkan proses migrasi tabel Mahasiswa menggunakan Alembic.
+
+![Migration Mahasiswa](senapermatasari_124140018_pertemuan6/screenshot/04-migration-mahasiswa.png)
+
+#### 5. Migration Matakuliah
+
+Menampilkan proses migrasi tabel Matakuliah menggunakan Alembic.
+
+![Migration Matakuliah](senapermatasari_124140018_pertemuan6/screenshot/05-migration-matakuliah.png)
+
+#### 6. CRUD Mahasiswa
+
+Menampilkan proses Create dan Read data mahasiswa.
+
+![CRUD Mahasiswa Create Read](senapermatasari_124140018_pertemuan6/screenshot/06a-crud-mahasiswa-create-read.png)
+
+Menampilkan proses Update dan Delete data mahasiswa.
+
+![CRUD Mahasiswa Update Delete](senapermatasari_124140018_pertemuan6/screenshot/06b-crud-mahasiswa-update-delete.png)
+
+#### 7. CRUD Matakuliah
+
+Menampilkan proses Create dan Read data mata kuliah.
+
+![CRUD Matakuliah Create Read](senapermatasari_124140018_pertemuan6/screenshot/07a-crud-matakuliah-create-read.png)
+
+Menampilkan proses Update dan Delete data mata kuliah.
+
+![CRUD Matakuliah Update Delete](senapermatasari_124140018_pertemuan6/screenshot/07b-crud-matakuliah-update-delete.png)
+
+**[Lihat Hasil Pertemuan 6](senapermatasari_124140018_pertemuan6/)**
+
+---
+
 ## Teknologi yang Digunakan
 
 | Teknologi | Kegunaan |
@@ -366,6 +480,12 @@ Menampilkan penerapan enkapsulasi pada data program.
 | localStorage | Penyimpanan data pada browser |
 | Vitest | Pengujian aplikasi React |
 | Python | Bahasa pemrograman untuk praktikum dasar dan OOP |
+| Pyramid | Framework pengembangan aplikasi web Python |
+| SQLAlchemy | ORM untuk mengelola interaksi dengan database |
+| PostgreSQL | Sistem manajemen basis data relasional |
+| Alembic | Pengelolaan migrasi database |
+
+---
 
 ## Cara Menjalankan Project
 
@@ -480,13 +600,41 @@ cd tugas_perpustakaan
 python main.py
 ```
 
+### 8. Pertemuan 6 — Pyramid dan PostgreSQL
+
+Pastikan Python dan PostgreSQL sudah terpasang. Buat dan aktifkan virtual environment, lalu masuk ke folder project Pertemuan 6.
+
+Install dependencies sesuai konfigurasi project:
+
+```bash
+python -m pip install -e .
+```
+
+Konfigurasikan koneksi database PostgreSQL pada `development.ini`, kemudian jalankan migrasi database:
+
+```bash
+python -m alembic -c development.ini upgrade head
+```
+
+Jalankan aplikasi Pyramid:
+
+```bash
+python -m pyramid.scripts.pserve development.ini --reload
+```
+
+Buka aplikasi melalui browser pada:
+
+```text
+http://localhost:6543
+```
+
 ---
 
 ## Kesimpulan
 
-Melalui rangkaian praktikum ini, dipelajari dasar pengembangan web menggunakan JavaScript hingga penerapan framework React untuk membangun aplikasi yang lebih interaktif dan terstruktur. Selain itu, dipelajari pula dasar pemrograman Python serta konsep pemrograman berorientasi objek (class, inheritance, enkapsulasi, polimorfisme, dan abstract class) untuk membangun program yang lebih modular dan mudah dikembangkan.
+Melalui rangkaian praktikum ini, dipelajari dasar pengembangan web menggunakan JavaScript hingga penerapan framework React untuk membangun aplikasi yang lebih interaktif dan terstruktur. Selain itu, dipelajari pula dasar pemrograman Python, konsep pemrograman berorientasi objek, serta pengembangan aplikasi web menggunakan Pyramid Framework yang terintegrasi dengan PostgreSQL.
 
-Praktikum memberikan pengalaman dalam mengelola komponen, state, navigasi, penyimpanan data, modularitas program, perancangan class, serta pengujian aplikasi.
+Praktikum memberikan pengalaman dalam mengelola komponen, state, navigasi, penyimpanan data, modularitas program, perancangan class, pengelolaan database, implementasi REST API, serta pengujian aplikasi.
 
 ---
 
