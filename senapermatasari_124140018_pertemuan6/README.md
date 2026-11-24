@@ -179,8 +179,30 @@ http://localhost:6543
 
 ## Dokumentasi Praktikum
 
-Dokumentasi pelaksanaan praktikum tersedia di folder `screenshot/`, mulai dari struktur project, model, migrasi database, hingga pengujian operasi CRUD Mahasiswa dan Matakuliah.
+### 1. Struktur Project
+![Struktur Project](screenshot/01-struktur-project.png)
 
+### 2. Model Mahasiswa
+![Model Mahasiswa](screenshot/02-model-mahasiswa.png)
+
+### 3. Model Matakuliah
+![Model Matakuliah](screenshot/03-model-matakuliah.png)
+
+### 4. Migration Mahasiswa
+![Migration Mahasiswa](screenshot/04-migration-mahasiswa.png)
+
+### 5. Migration Matakuliah
+![Migration Matakuliah](screenshot/05-migration-matakuliah.png)
+
+### 6. CRUD Mahasiswa
+![CRUD Mahasiswa Create Read](screenshot/06a-crud-mahasiswa-create-read.png)
+
+![CRUD Mahasiswa Update Delete](screenshot/06b-crud-mahasiswa-update-delete.png)
+
+### 7. CRUD Matakuliah
+![CRUD Matakuliah Create Read](screenshot/07a-crud-matakuliah-create-read.png)
+
+![CRUD Matakuliah Update Delete](screenshot/07b-crud-matakuliah-update-delete.png)
 ---
 
 **Institut Teknologi Sumatera (ITERA)**  
