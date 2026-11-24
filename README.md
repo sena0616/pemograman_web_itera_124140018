@@ -7,7 +7,7 @@
 
 ## Deskripsi Repository
 
-Repository ini berisi kumpulan hasil praktikum dan tugas mata kuliah Pemrograman Web. Materi yang dikerjakan mencakup JavaScript Dasar, JavaScript Next Gen (ES6+), pengembangan aplikasi berbasis React menggunakan Vite, serta dasar-dasar pemrograman Python.
+Repository ini berisi kumpulan hasil praktikum dan tugas mata kuliah Pemrograman Web. Materi yang dikerjakan mencakup JavaScript Dasar, JavaScript Next Gen (ES6+), pengembangan aplikasi berbasis React menggunakan Vite, dasar-dasar pemrograman Python, serta Pemrograman Berorientasi Objek (OOP) dengan Python.
 
 ## Daftar Pertemuan
 
@@ -17,6 +17,7 @@ Repository ini berisi kumpulan hasil praktikum dan tugas mata kuliah Pemrograman
 | 02 | JavaScript Next Gen (ES6+) | [Pertemuan 2](senapermatasari_124140018_pertemuan2/) |
 | 03 | React Basics | [Pertemuan 3](Sena_Permatasari_124140018_pertemuan3/) |
 | 04 | Python Dasar | [Pertemuan 4](senapermatasari_124140018_pertemuan4/) |
+| 05 | Python OOP | [Pertemuan 5](senapermatasari_124140018_pertemuan5/) |
 
 ---
 
@@ -259,6 +260,98 @@ Menampilkan pengujian fungsi pada modul `math_operations.py` secara langsung.
 
 ---
 
+## Pertemuan 5 — Python OOP
+
+### Deskripsi
+
+Pertemuan kelima membahas Pemrograman Berorientasi Objek (Object-Oriented Programming) pada Python, mulai dari konsep objek dan class, pewarisan, enkapsulasi, polimorfisme, hingga abstract class. Materi diterapkan dalam latihan terbimbing, latihan mandiri, dan tugas berupa sistem manajemen perpustakaan.
+
+### Materi yang Dipelajari
+
+- Everything is Object pada Python
+- Pemrograman prosedural vs OOP
+- Class dan Object
+- Inheritance (pewarisan)
+- Encapsulation (enkapsulasi)
+- Polymorphism
+- Abstract Class
+
+### Struktur Folder
+
+| Folder | Isi |
+|---|---|
+| `latihan/` | 7 file latihan terbimbing sesuai materi (objek, prosedural vs OOP, class, inheritance, encapsulation, polymorphism, abstract class) |
+| `latihan_mandiri/` | 6 file latihan mandiri (toko online, kartu buku, armada truk, gaji karyawan, siaran notifikasi, layanan penyimpanan) |
+| `tugas_perpustakaan/` | Tugas utama: program manajemen perpustakaan (`library_item.py`, `member.py`, `library.py`, `main.py`) |
+| `ss/` | Screenshot hasil menjalankan program |
+
+### Hasil Praktikum
+
+Pada latihan terbimbing dan latihan mandiri dibuat berbagai program kecil untuk mempraktikkan setiap konsep OOP. Pada bagian tugas dibuat program manajemen perpustakaan berbasis menu yang memiliki class terpisah untuk item perpustakaan, anggota, dan pengelolaan perpustakaan.
+
+**Fitur Program Perpustakaan:**
+
+- Menampilkan katalog item perpustakaan
+- Menampilkan item yang tersedia
+- Menambahkan item baru
+- Mencari item
+- Meminjam dan mengembalikan item
+- Penerapan enkapsulasi pada data item
+
+### Dokumentasi Pertemuan 5
+
+#### 1. Menu Katalog dan Item Tersedia
+
+Menampilkan menu program untuk melihat katalog dan item yang tersedia.
+
+![Menu Katalog Tersedia](senapermatasari_124140018_pertemuan5/ss/menu_katalog_tersedia.png)
+
+#### 2. Menu Tambah Item
+
+Menampilkan menu untuk menambahkan item baru ke perpustakaan.
+
+![Menu Tambah Item](senapermatasari_124140018_pertemuan5/ss/menu_tambah_item.png)
+
+#### 3. Menu Cari, Pinjam, dan Kembali
+
+Menampilkan menu pencarian serta proses peminjaman dan pengembalian item.
+
+![Menu Cari Pinjam Kembali](senapermatasari_124140018_pertemuan5/ss/menu_cari_pinjam_kembali.png)
+
+#### 4. Katalog Perpustakaan
+
+Menampilkan hasil katalog item perpustakaan.
+
+![Perpus Katalog](senapermatasari_124140018_pertemuan5/ss/perpus_katalog.png)
+
+#### 5. Menambah Item
+
+Menampilkan hasil penambahan item pada perpustakaan.
+
+![Perpus Tambah](senapermatasari_124140018_pertemuan5/ss/perpus_tambah.png)
+
+#### 6. Pencarian Item
+
+Menampilkan hasil pencarian item pada perpustakaan.
+
+![Perpus Cari](senapermatasari_124140018_pertemuan5/ss/perpus_cari.png)
+
+#### 7. Peminjaman Item
+
+Menampilkan hasil proses peminjaman item.
+
+![Perpus Pinjam](senapermatasari_124140018_pertemuan5/ss/perpus_pinjam.png)
+
+#### 8. Pengujian Enkapsulasi
+
+Menampilkan penerapan enkapsulasi pada data program.
+
+![Perpus Enkapsulasi](senapermatasari_124140018_pertemuan5/ss/perpus_enkapsulasi.png)
+
+**[Lihat Hasil Pertemuan 5](senapermatasari_124140018_pertemuan5/)**
+
+---
+
 ## Teknologi yang Digunakan
 
 | Teknologi | Kegunaan |
@@ -272,7 +365,7 @@ Menampilkan pengujian fungsi pada modul `math_operations.py` secara langsung.
 | Context API | Pengelolaan state global |
 | localStorage | Penyimpanan data pada browser |
 | Vitest | Pengujian aplikasi React |
-| Python | Bahasa pemrograman untuk praktikum dasar |
+| Python | Bahasa pemrograman untuk praktikum dasar dan OOP |
 
 ## Cara Menjalankan Project
 
@@ -360,13 +453,40 @@ Menjalankan program utama:
 python main.py
 ```
 
+### 7. Pertemuan 5 — Python OOP
+
+Pastikan Python sudah terpasang. Masuk ke folder Pertemuan 5:
+
+```bash
+cd senapermatasari_124140018_pertemuan5
+```
+
+Menjalankan salah satu file latihan, contohnya:
+
+```bash
+python latihan/03_inheritance.py
+```
+
+Menjalankan salah satu latihan mandiri, contohnya:
+
+```bash
+python latihan_mandiri/lat1_toko_online.py
+```
+
+Menjalankan program tugas perpustakaan:
+
+```bash
+cd tugas_perpustakaan
+python main.py
+```
+
 ---
 
 ## Kesimpulan
 
-Melalui rangkaian praktikum ini, dipelajari dasar pengembangan web menggunakan JavaScript hingga penerapan framework React untuk membangun aplikasi yang lebih interaktif dan terstruktur. Selain itu, dipelajari pula dasar pemrograman Python untuk memahami konsep pemrograman dan penerapannya dalam pembuatan program sederhana.
+Melalui rangkaian praktikum ini, dipelajari dasar pengembangan web menggunakan JavaScript hingga penerapan framework React untuk membangun aplikasi yang lebih interaktif dan terstruktur. Selain itu, dipelajari pula dasar pemrograman Python serta konsep pemrograman berorientasi objek (class, inheritance, enkapsulasi, polimorfisme, dan abstract class) untuk membangun program yang lebih modular dan mudah dikembangkan.
 
-Praktikum memberikan pengalaman dalam mengelola komponen, state, navigasi, penyimpanan data, modularitas program, serta pengujian aplikasi.
+Praktikum memberikan pengalaman dalam mengelola komponen, state, navigasi, penyimpanan data, modularitas program, perancangan class, serta pengujian aplikasi.
 
 ---
 
